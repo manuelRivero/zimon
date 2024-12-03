@@ -1,0 +1,40 @@
+{
+  "name": "zimon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "zimon",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@szhsin/react-accordion": "^1.2.6",
+    "autoprefixer": "^10.4.20",
+    "framer-motion": "^11.11.17",
+    "gatsby": "^5.14.0",
+    "gatsby-alias-imports": "^1.0.6",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-google-gtag": "^5.14.0",
+    "gatsby-plugin-postcss": "^6.14.0",
+    "gatsby-plugin-sitemap": "^6.14.0",
+    "motion": "^11.11.17",
+    "postcss": "^8.4.49",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "swiper": "^11.1.14",
+    "tailwindcss": "^3.4.15"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.3.3"
+  }
+}

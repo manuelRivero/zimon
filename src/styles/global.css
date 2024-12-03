@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Alan";
+    src:
+      local("Alan"),
+      url("../fonts/ADLaMDisplay-Regular.ttf") format("opentype"),
+}
