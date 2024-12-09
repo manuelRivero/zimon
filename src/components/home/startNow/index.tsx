@@ -29,11 +29,6 @@ export default function StartNow() {
                 style={{ maxWidth: "140px" }}
                 alt="Enlace a google play"
               />
-              <img
-                src={appGallery}
-                style={{ maxWidth: "140px" }}
-                alt="Enlace a app gallery"
-              />
             </div>
           </div>
           <div className="flex-1  justify-center order-1 md:order-2 mt-[160px] md:mt-0 mb-6 md:mb-0">

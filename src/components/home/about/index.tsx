@@ -31,7 +31,6 @@ export default function About() {
           </h3>
           <div className="flex gap-6 justify-end">
           <img src={googlePay} style={{maxWidth: '140px'}} alt="Enlace a google play" />
-          <img src={appGallery} style={{maxWidth: '140px'}} alt="Enlace a app gallery" />
           </div>
           </div>
         </div>

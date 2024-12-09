@@ -3,23 +3,23 @@ import { motion } from "motion/react";
 
 const containerVariants = {
   initial: {
-    width: 400,
+    width: 300,
   },
   final: {
-    width: 640,
+    width: 550,
   },
 };
 
 const imgVariants = {
   initial: {
-    x: -20,
+    x: 0,
     y: 100,
-    width: 250,
+    width: 200,
   },
   final: {
     x: 0,
     y: 0,
-    width: 250,
+    width: 200,
   },
 };
 
@@ -40,7 +40,6 @@ interface Props {
   image: JSX.Element;
   logo: string;
   backgoundColor: string;
-  active: boolean;
 }
 export default function AboutSwiperCard({
   title,
@@ -52,13 +51,13 @@ export default function AboutSwiperCard({
   const [active, setActive] = useState<boolean>(false);
   return (
     <motion.div
-      className={`flex gap-6 ${backgoundColor} h-[400px] rounded-lg p-4 overflow-hidden h-full relative`}
+      className={` ${backgoundColor} h-[380px] rounded-lg p-4 overflow-hidden relative`}
       style={{ maxWidth: "640px", transformOrigin: "right" }}
       variants={containerVariants}
       initial="initial"
       whileHover={"final"}
       transition={{
-        duration: 0.8,
+        duration: 0.5,
         staggerChildren: 0.2,
       }}
       onHoverStart={() => setActive(true)}
@@ -71,21 +70,19 @@ export default function AboutSwiperCard({
             variants={descriptionVariants}
             initial="initial"
             animate={active ? "final" : "initial"}
-            transition={
-              {
-                delay: .3
-              }
-            }
+            transition={{
+              delay: 0.3,
+            }}
           >
             {description}
+            <div className="w-20 mt-2">
+              <img src={logo} alt="Logo" />
+            </div>
           </motion.div>
-        </div>
-        <div className="w-20 mt-2">
-          <img src={logo} alt="Logo" />
         </div>
       </div>
       <motion.div
-        className="absolute bottom-0 h-full w-[300px] right-0"
+        className=" absolute bottom-0 h-full right-0"
         variants={imgVariants}
         initial="initial"
         animate={active ? "final" : "initial"}

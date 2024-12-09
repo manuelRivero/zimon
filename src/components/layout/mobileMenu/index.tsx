@@ -4,6 +4,18 @@ import menuIcon from "../../../images/menu-icon.png";
 
 export default function MobileMenu() {
   const [open, setOpen] = useState<boolean>(false);
+
+  const handleClick = (target: string) => {
+    const targetElement = document.getElementById(target);
+    const headerElement = document.getElementById("header");
+    // targetElement?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    window.scrollTo({
+      left: 0,
+      top: targetElement?.offsetTop! - headerElement?.offsetHeight!,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="relative ">
       <div
@@ -14,10 +26,24 @@ export default function MobileMenu() {
       </div>
       {open && (
         <div className="bg-white shadow-lg rounded-md w-[250px] p-4 absolute right-0 bottom-0 transform translate-y-full z-20">
-          <a className="block p-2"> ¿Qué es Zimón?</a>
-          <a className="block p-2">¿Cómo funciona?</a>
-          <a className="block p-2">¿Por que Zimón?</a>
-          <a className="block p-2">FAQ</a>
+       <a className="cursor-pointer block p-2" onClick={() => handleClick("about")}>
+            ¿Qué es Zimón?
+          </a>
+          <a
+            className="cursor-pointer block p-2"
+            onClick={() => handleClick("how-it-works")}
+          >
+            ¿Cómo funciona?
+          </a>
+          <a
+            className="cursor-pointer block p-2"
+            onClick={() => handleClick("why-zimon")}
+          >
+            ¿Por que Zimón?
+          </a>
+          <a className="cursor-pointer block p-2" onClick={() => handleClick("questions")}>
+            FAQ
+          </a>
           <div className="flex justify-center mt-2">
             <BaseButton
               title="¡Obtén tu crédito!"
