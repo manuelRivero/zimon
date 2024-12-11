@@ -9,7 +9,7 @@ import BaseButton from "../../shared/baseButton";
 
 export default function StartNow() {
   return (
-    <div className="relative px-6 pt-14 md:px-12">
+    <div className="relative px-6 pt-14 md:px-12 pb-4">
       <div className="relative z-10">
         <div className="flex flex-col md:flex-row gap-4 items-center mb-4">
           <h1 className="text-3xl md:text-3xl text-custom-white  mb-0 leading-0">
@@ -19,23 +19,24 @@ export default function StartNow() {
           <img src={logo} alt="Logo" className="self-center" />
         </div>
         <div className="flex justify-between flex-col md:flex-row ">
-          <div className="order-2 md:order-1">
+          <div className="order-2 md:order-1 flex-1">
             <h3 className="text-lg text-custom-white mb-2">
               Descarga la app en:
             </h3>
             <div className="flex flex-col gap-6 justify-end">
-              <img
-                src={googlePay}
-                style={{ maxWidth: "140px" }}
-                alt="Enlace a google play"
-              />
+              <a href="https://play.google.com/store/apps/details?id=com.kdm.apps.zmn&hl=en-US&ah=9FOzuJZd_sOViIAYAq-TNqJcDF0&pli=1 " target="_blank">
+                <img
+                  src={googlePay}
+                  style={{ maxWidth: "140px" }}
+                  alt="Enlace a google play"
+                />
+              </a>
             </div>
           </div>
           <div className="flex-1  justify-center order-1 md:order-2 mt-[160px] md:mt-0 mb-6 md:mb-0">
-          <h1 className=" md:max-w-[300px] md:ml-40 text-center text-3xl md:text-3xl text-custom-white  mb-0 leading-0">
-          Nosotros te ayudamos a que tu futuro financiero diga “Zi”
-          </h1>
-
+            <h1 className=" md:max-w-[300px] md:ml-10 text-center text-3xl md:text-3xl text-custom-white  mb-0 leading-0">
+              Nosotros te ayudamos a que tu futuro financiero diga “Zi”
+            </h1>
           </div>
         </div>
          

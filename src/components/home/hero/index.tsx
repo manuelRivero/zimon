@@ -22,6 +22,7 @@ export default function Hero() {
          
         <div className="flex md:block justify-center">
           <BaseButton
+            href="https://play.google.com/store/apps/details?id=com.kdm.apps.zmn&hl=en-US&ah=9FOzuJZd_sOViIAYAq-TNqJcDF0&pli=1 "
             title="¡Obtén el tuyo ahora!"
             backgroundColorClassName="bg-custom-blue-dark"
           />

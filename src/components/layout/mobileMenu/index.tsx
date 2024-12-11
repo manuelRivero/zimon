@@ -26,7 +26,10 @@ export default function MobileMenu() {
       </div>
       {open && (
         <div className="bg-white shadow-lg rounded-md w-[250px] p-4 absolute right-0 bottom-0 transform translate-y-full z-20">
-       <a className="cursor-pointer block p-2" onClick={() => handleClick("about")}>
+          <a
+            className="cursor-pointer block p-2"
+            onClick={() => handleClick("about")}
+          >
             ¿Qué es Zimón?
           </a>
           <a
@@ -41,11 +44,15 @@ export default function MobileMenu() {
           >
             ¿Por que Zimón?
           </a>
-          <a className="cursor-pointer block p-2" onClick={() => handleClick("questions")}>
+          <a
+            className="cursor-pointer block p-2"
+            onClick={() => handleClick("questions")}
+          >
             FAQ
           </a>
           <div className="flex justify-center mt-2">
             <BaseButton
+              href="https://play.google.com/store/apps/details?id=com.kdm.apps.zmn&hl=en-US&ah=9FOzuJZd_sOViIAYAq-TNqJcDF0&pli=1 "
               title="¡Obtén tu crédito!"
               backgroundColorClassName="bg-custom-blue-dark"
             />

@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         sans: ['Alan'],
         serif: ['Alan'],
+        Inter:['Inter']
       },
       container: {
         center: true,

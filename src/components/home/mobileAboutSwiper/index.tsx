@@ -114,7 +114,7 @@ export default function MobileAboutSwiper() {
                 className="text-xl text-custom-blue-dark mb-4"
                 style={{ maxWidth: "300px" }}
               >
-                4.
+                3.
               </h2>
               <h2
                 className="text-xl text-custom-blue-dark mb-4"
@@ -150,7 +150,7 @@ export default function MobileAboutSwiper() {
                 className="text-xl text-custom-blue-dark mb-4"
                 style={{ maxWidth: "300px" }}
               >
-                3.
+                4.
               </h2>
               <h2
                 className="text-xl text-custom-blue-dark mb-4"
@@ -177,7 +177,6 @@ export default function MobileAboutSwiper() {
           logo={logo3}
         />
       </SwiperSlide>
-      ...
     </Swiper>
   );
 }

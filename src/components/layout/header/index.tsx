@@ -39,10 +39,14 @@ export default function Header() {
           >
             ¿Por que Zimón?
           </a>
-          <a className="cursor-pointer" onClick={() => handleClick("questions")}>
+          <a
+            className="cursor-pointer"
+            onClick={() => handleClick("questions")}
+          >
             FAQ
           </a>
           <BaseButton
+            href="https://play.google.com/store/apps/details?id=com.kdm.apps.zmn&hl=en-US&ah=9FOzuJZd_sOViIAYAq-TNqJcDF0&pli=1 "
             title="¡Obtén tu crédito!"
             backgroundColorClassName="bg-custom-blue-dark"
           />

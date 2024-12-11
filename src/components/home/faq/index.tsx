@@ -44,7 +44,7 @@ export default function FAQ() {
                   }}
                   className="p-6 border rounded-xl mb-6 mt-12"
                 >
-                  <p className="mt-4">
+                  <p className="mt-4 font-normal font-Inter" style={{fontWeight: 400}}>
                     Zimón es tu compa financiero que te echa la mano cuando
                     necesitas un empujoncito. Somos una plataforma 100% digital
                     que te da acceso a una línea de crédito para que hagas
@@ -78,7 +78,7 @@ export default function FAQ() {
                   }}
                   className="p-6 border rounded-xl mb-6"
                 >
-                  <p className="mt-4">
+                  <p className="mt-4 font-normal font-Inter" style={{fontWeight: 400}}>
                     En Zimón, el crédito se adapta a ti. El monto mínimo con el
                     que puedes comenzar es modesto, pero suficiente para darte
                     un empujoncito: ¡desde $1,000 pesitos! Y, si todo fluye,
@@ -109,7 +109,7 @@ export default function FAQ() {
                   }}
                   className="p-6 border rounded-xl mb-6"
                 >
-                  <p className="mt-4">
+                  <p className="mt-4 font-normal font-Inter" style={{fontWeight: 400}}>
                     ¡Ah, la pregunta del millón! Para aumentar tu límite de
                     crédito con Zimón, todo empieza con ser súper puntual. Cada
                     semana tienes que hacer esos pagos chiquitos y al corriente.
@@ -143,7 +143,7 @@ export default function FAQ() {
                   }}
                   className="p-6 border rounded-xl mb-6"
                 >
-                  <p className="mt-4">
+                  <p className="mt-4 font-normal font-Inter" style={{fontWeight: 400}}>
                     Zimón te da chance de hacer varios desembolsos dentro de tu
                     límite de crédito. Es decir, si tienes, por ejemplo, un
                     límite de $1,000 pesos, puedes hacer varios retiros hasta
@@ -181,7 +181,7 @@ export default function FAQ() {
                   }}
                   className="p-6 border rounded-xl mb-6 mt-12"
                 >
-                  <p className="mt-4">
+                  <p className="mt-4 font-normal font-Inter" style={{fontWeight: 400}}>
                     Zimón lo que busca es alivianarte al instante, por eso
                     realizar un retiro es súper fácil. Así es como lo haces:
                     <br />
@@ -220,7 +220,7 @@ export default function FAQ() {
                   className="p-6 border rounded-xl mb-6"
                 >
                   {" "}
-                  <p className="mt-4">
+                  <p className="mt-4 font-normal font-Inter" style={{fontWeight: 400}}>
                     Solicitar un crédito con Zimón es casi tan fácil como pedir
                     una pizza (¡y casi igual de rápido!). Solo necesitas seguir
                     los simples pasos:
@@ -259,7 +259,7 @@ export default function FAQ() {
                   }}
                   className="p-6 border rounded-xl mb-6"
                 >
-                  <p className="mt-4">
+                  <p className="mt-4 font-normal font-Inter" style={{fontWeight: 400}}>
                     ¡Rapidísimo! En Zimón no me gusta hacerte esperar. Después
                     de que ingresas tu solicitud de crédito, te doy una
                     respuesta en un máximo de 10 segundos. Sí, así de rápido. 😎
@@ -289,7 +289,7 @@ export default function FAQ() {
                   }}
                   className="p-6 border rounded-xl mb-6"
                 >
-                  <p className="mt-4">
+                  <p className="mt-4 font-normal font-Inter" style={{fontWeight: 400}}>
                     Si tu solicitud de crédito fue rechazada, no te preocupes,
                     ¡puede pasar! En Zimón utilizamos una combinación de datos
                     alternativos para evaluar tu perfil, no solo tu historial
@@ -331,7 +331,7 @@ export default function FAQ() {
                   }}
                   className="p-6 border rounded-xl mb-6 mt-12"
                 >
-                  <p className="mt-4">
+                  <p className="mt-4 font-normal font-Inter" style={{fontWeight: 400}}>
                     Zimón te da chance de pagar con calma 😉. Tienes entre 12 y
                     16 semanas para liquidar cada uno de los desembolsos que
                     realices , con pagos semanales "chiquitos" que se ajustan a
@@ -364,14 +364,16 @@ export default function FAQ() {
                   }}
                   className="p-6 border rounded-xl mb-6"
                 >
-                  Por ahora, el plazo para pagar tu crédito en Zimón se asigna
-                  automáticamente cuando recibes tu oferta. Dependiendo de tu
-                  situación, te asignaremos un plazo de 12, 14 o 16 semanas, y
-                  todos tus futuros desembolsos se difieren a ese mismo plazo.
-                  <br />
-                  Así que, aunque no puedes elegir el plazo por el momento, no
-                  te preocupes: Zimón siempre busca darte un tiempo adecuado
-                  para que los pagos semanales sean manejables.
+                  <p className="mt-4 font-normal font-Inter" style={{fontWeight: 400}}>
+                    Por ahora, el plazo para pagar tu crédito en Zimón se asigna
+                    automáticamente cuando recibes tu oferta. Dependiendo de tu
+                    situación, te asignaremos un plazo de 12, 14 o 16 semanas, y
+                    todos tus futuros desembolsos se difieren a ese mismo plazo.
+                    <br />
+                    Así que, aunque no puedes elegir el plazo por el momento, no
+                    te preocupes: Zimón siempre busca darte un tiempo adecuado
+                    para que los pagos semanales sean manejables.
+                  </p>
                 </AccordionItem>
                 <AccordionItem
                   header={({ state: { isEnter } }) => (
@@ -394,19 +396,21 @@ export default function FAQ() {
                   }}
                   className="p-6 border rounded-xl mb-6"
                 >
-                  Realizar tu pago en Zimón es tan fácil como hacer una
-                  transferencia bancaria. Aquí te explico cómo funciona:
-                  <br /> Abre la app de Zimón y da click en el botón "Pagar".
-                  <br />
-                  Podrás visualizar los datos necesarios como CLABE,
-                  beneficiario y referencia que usarás para hacer la
-                  transferencia desde la aplicación de tu banco.
-                  <br /> Abre tu app de banco, realiza la transferencia bancaria
-                  (SPEI) usando la CLABE y la referencia proporcionada, ¡y
-                  listo!
-                  <br /> Así de sencillo: solo transfieres desde tu cuenta
-                  bancaria principal y cumples con tu pago semanal. ¡No hay
-                  pierde!
+                  <p className="mt-4 font-normal font-Inter" style={{fontWeight: 400}}>
+                    Realizar tu pago en Zimón es tan fácil como hacer una
+                    transferencia bancaria. Aquí te explico cómo funciona:
+                    <br /> Abre la app de Zimón y da click en el botón "Pagar".
+                    <br />
+                    Podrás visualizar los datos necesarios como CLABE,
+                    beneficiario y referencia que usarás para hacer la
+                    transferencia desde la aplicación de tu banco.
+                    <br /> Abre tu app de banco, realiza la transferencia
+                    bancaria (SPEI) usando la CLABE y la referencia
+                    proporcionada, ¡y listo!
+                    <br /> Así de sencillo: solo transfieres desde tu cuenta
+                    bancaria principal y cumples con tu pago semanal. ¡No hay
+                    pierde!
+                  </p>
                 </AccordionItem>
                 <AccordionItem
                   header={({ state: { isEnter } }) => (
@@ -429,14 +433,16 @@ export default function FAQ() {
                   }}
                   className="p-6 border rounded-xl mb-6"
                 >
-                  ¡Claro que puedes liquidar anticipadamente en Zimón! Siempre
-                  tendrás acceso a tu saldo insoluto, que es el monto total que
-                  debes para terminar de pagar tu crédito. Si decides liquidarlo
-                  antes de tiempo, te ahorras los intereses de los pagos futuros
-                  que aún no se han amortizado.
-                  <br />
-                  Así que, si tienes la oportunidad de pagar antes, ¡adelante!
-                  Terminas más rápido y ahorras un dinerito extra.
+                  <p className="mt-4 font-normal font-Inter" style={{fontWeight: 400}}>
+                    ¡Claro que puedes liquidar anticipadamente en Zimón! Siempre
+                    tendrás acceso a tu saldo insoluto, que es el monto total
+                    que debes para terminar de pagar tu crédito. Si decides
+                    liquidarlo antes de tiempo, te ahorras los intereses de los
+                    pagos futuros que aún no se han amortizado.
+                    <br />
+                    Así que, si tienes la oportunidad de pagar antes, ¡adelante!
+                    Terminas más rápido y ahorras un dinerito extra.
+                  </p>
                 </AccordionItem>
               </Accordion>
             </AccordionBody>

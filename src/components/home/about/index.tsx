@@ -30,7 +30,9 @@ export default function About() {
             Descarga la app en:
           </h3>
           <div className="flex gap-6 justify-end">
+            <a href="https://play.google.com/store/apps/details?id=com.kdm.apps.zmn&hl=en-US&ah=9FOzuJZd_sOViIAYAq-TNqJcDF0&pli=1 " target="_blank">
           <img src={googlePay} style={{maxWidth: '140px'}} alt="Enlace a google play" />
+            </a>
           </div>
           </div>
         </div>

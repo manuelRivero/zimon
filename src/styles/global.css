@@ -8,3 +8,10 @@
       local("Alan"),
       url("../fonts/ADLaMDisplay-Regular.ttf") format("opentype"),
 }
+
+@font-face {
+  font-family: "Inter";
+  src:
+    local("Alan"),
+    url("../fonts/Inter-VariableFont_opsz,wght.ttf") format("opentype"),
+}

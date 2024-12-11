@@ -1,6 +1,8 @@
 import React from "react";
 import inIcon from "../../../images/in-icon.png";
 import fbIcon from "../../../images/fb-icon.png";
+import instaIcon from "../../../images/instagram-icon.png";
+import tiktokIcon from "../../../images/tik-tok-icon.png";
 import logo from "../../../images/logo-zimon-white.png";
 
 export default function Footer() {
@@ -9,11 +11,13 @@ export default function Footer() {
       <div className="container grid grid-cols-1 md:grid-cols-3">
         <div>
           <h6 className="text-custom-white text-lg">Contacto</h6>
-          <p className="text-custom-white">soporte@zimon.mx</p>
-          <p className="text-custom-white">+52 56 39 07 33 49</p>
+          <p className="text-custom-white">soporte@zimon.com.mx</p>
+          <p className="text-custom-white">+52 5639073349</p>
           <div className="flex gap-4 mt-4">
-            <img src={inIcon} alt="instagram" />
-            <img src={fbIcon} alt="facebook" />
+          <img src={fbIcon} alt="facebook" />
+          <img src={instaIcon} alt="instagram" />
+          <img src={tiktokIcon} alt="instagram" />
+          <img src={inIcon} alt="in" />
           </div>
         </div>
         <div className="mt-4 md:mt-0">
