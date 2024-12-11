@@ -10,7 +10,7 @@ import StartNow from "../components/home/startNow";
 import Footer from "../components/layout/footer";
 import AboutCardRow from "../components/home/aboutCardRow";
 import MobileAboutSwiper from "../components/home/mobileAboutSwiper";
-import logo from "../images/logo-zimon.svg";
+import logo from "../images/logo-min-xl.png";
 
 export function Head() {
   return (
