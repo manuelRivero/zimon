@@ -20,8 +20,8 @@ export function Head() {
         name="description"
         content="Zimón! te ofrece créditos rápidos y flexibles con montos pequeños, ideales para esas necesidades inmediatas o proyectos personales. Con Zimón!, olvídate de trámites complicados, filas interminables y papeleos engorrosos. ¡Todo lo manejas desde la app en minutos!"
       />
-   <meta name="image" content={logo} />
-
+      <meta property='og:image' content={logo} />
+      <meta name="image" content={logo} />
     </>
   );
 }
