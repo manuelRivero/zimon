@@ -1,10 +1,6 @@
-import React, { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import React from "react";
 import AboutSwiperCard from "../aboutCard";
-import { motion } from "motion/react";
 
-import line1 from "./../../../images/line-orange.png";
-import line2 from "./../../../images/line-blue.png";
 import image1 from "./../../../images/swiper-card-1.png";
 import image2 from "./../../../images/swiper-card-2.png";
 import image3 from "./../../../images/swiper-card-3.png";
@@ -13,7 +9,6 @@ import logo1 from "./../../../images/logo-zimon-min.png";
 import logo2 from "./../../../images/logo-zimon-min-pink.png";
 import logo3 from "./../../../images/logo-zimon-min-blue.png";
 
-import "swiper/css";
 
 export default function AboutCardRow() {
   return (

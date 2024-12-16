@@ -38,7 +38,7 @@ export default function Home() {
         </div>
       </div>
       <div id="how-it-works">
-        <div className="max-w-[1400px] hidden xl:block">
+        <div className="container max-w-[1400px] hidden xl:block">
           <AboutCardRow />
         </div>
         <div className="container p-6 xl:hidden">
