@@ -65,7 +65,7 @@ export default function AboutCardRow() {
               className="text-3xl text-custom-blue-dark mb-4"
               style={{ maxWidth: "230px" }}
             >
-              Zimón te responde en minutos{" "}
+              Zimón te responde en{" "}
               <span className="text-custom-white">minutos</span>
             </h2>
           </div>
@@ -107,7 +107,7 @@ export default function AboutCardRow() {
         description={
           <>
             <p style={{ maxWidth: "220px" }}>
-            Usa tu crédito de poquito en poquito o retiralo todo, y solo pagas lo que usas.
+            Usa tu crédito de poquito en poquito o retíralo todo, y solo pagas lo que usas.
             </p>
           </>
         }
@@ -140,7 +140,7 @@ export default function AboutCardRow() {
         description={
           <>
             <p style={{ maxWidth: "220px" }}>
-              Zi, liquidas cada desembolso, tu crédito se renueva
+              Zi liquidas cada desembolso, tu crédito se renueva
               automáticamente
             </p>
           </>

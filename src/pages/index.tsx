@@ -20,7 +20,7 @@ export function Head() {
         name="description"
         content="Zimón! te ofrece créditos rápidos y flexibles con montos pequeños, ideales para esas necesidades inmediatas o proyectos personales. Con Zimón!, olvídate de trámites complicados, filas interminables y papeleos engorrosos. ¡Todo lo manejas desde la app en minutos!"
       />
-      <meta property='og:image' content={logo} />
+      <meta property="og:image" content={logo} />
       <meta name="image" content={logo} />
     </>
   );
@@ -45,7 +45,7 @@ export default function Home() {
           <MobileAboutSwiper />
         </div>
       </div>
-      <div className="bg-custom-blue-dark relative">
+      <div className="bg-custom-blue-dark relative" id="why-zimon">
         <img
           src={vector1}
           alt="Vector"
@@ -56,8 +56,10 @@ export default function Home() {
           alt="Vector"
           className="absolute left-0 top-[200px] hidden md:block"
         />
-        <div className="container relative z-10 p-6" id="why-zimon">
-          <WhyZimon />
+        <div >
+          <div className="container relative z-10 p-6">
+            <WhyZimon />
+          </div>
         </div>
       </div>
       <div className="bg-custom-blue-white relative" id="questions">

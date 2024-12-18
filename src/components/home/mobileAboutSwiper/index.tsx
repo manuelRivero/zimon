@@ -15,8 +15,6 @@ export default function MobileAboutSwiper() {
     <Swiper
       spaceBetween={50}
       slidesPerView={3}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
       breakpoints={{
         0:{
             slidesPerView: 1
@@ -128,7 +126,7 @@ export default function MobileAboutSwiper() {
           description={
             <>
               <p style={{ maxWidth: "220px" }}>
-                Usa tu crédito de poquito en poquito o retiralo todo, y solo
+                Usa tu crédito de poquito en poquito o retíralo todo, y solo
                 pagas lo que usas.
               </p>
             </>

@@ -21,7 +21,7 @@ export default function FAQ() {
       <div className="flex justify-center">
         <div className="w-full max-w-[647px]">
           <div className="mb-6">
-            <AccordionBody title="Cónoce más de Zimón">
+            <AccordionBody title="Conoce más de Zimón">
               <Accordion>
                 <AccordionItem
                   header={({ state: { isEnter } }) => (

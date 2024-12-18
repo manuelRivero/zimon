@@ -37,7 +37,7 @@ export default function Header() {
             className="cursor-pointer"
             onClick={() => handleClick("why-zimon")}
           >
-            ¿Por que Zimón?
+            ¿Por qué Zimón?
           </a>
           <a
             className="cursor-pointer"

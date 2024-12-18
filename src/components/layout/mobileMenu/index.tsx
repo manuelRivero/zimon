@@ -42,7 +42,7 @@ export default function MobileMenu() {
             className="cursor-pointer block p-2"
             onClick={() => handleClick("why-zimon")}
           >
-            ¿Por que Zimón?
+            ¿Por qué Zimón?
           </a>
           <a
             className="cursor-pointer block p-2"
