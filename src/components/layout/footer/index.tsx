@@ -25,22 +25,65 @@ export default function Footer() {
           <p className="text-custom-white">soporte@zimon.com.mx</p>
           <p className="text-custom-white">+52 5639073349</p>
           <div className="flex gap-4 mt-4">
-          <img src={fbIcon} alt="facebook" />
-          <img src={instaIcon} alt="instagram" />
-          <img src={tiktokIcon} alt="instagram" />
-          <img src={inIcon} alt="in" />
+            <a
+              target="_blank"
+              href="https://www.facebook.com/profile.php?id=61566579572124"
+            >
+              <img src={fbIcon} alt="facebook" />
+            </a>
+            <a href="https://www.instagram.com/zimon.mx/" target="_blank">
+              <img src={instaIcon} alt="instagram" />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/zim%C3%B3n"
+            >
+              <img src={inIcon} alt="in" />
+            </a>
           </div>
         </div>
         <div className="mt-4 md:mt-0">
-          <a className="text-custom-white block" onClick={() => handleClick("about")} >¿Qué es Zimón?</a>
-          <a className="text-custom-white block" onClick={() => handleClick("how-it-works")} >¿Cómo funciona?</a>
-          <a className="text-custom-white block" onClick={() => handleClick("why-zimon")} >¿Por que Zimón?</a>
-          <a className="text-custom-white block" onClick={() => handleClick("questions")} >Preguntas frecuentes</a>
+          <a
+            className="text-custom-white block cursor-pointer"
+            onClick={() => handleClick("about")}
+          >
+            ¿Qué es Zimón?
+          </a>
+          <a
+            className="text-custom-white block cursor-pointer"
+            onClick={() => handleClick("how-it-works")}
+          >
+            ¿Cómo funciona?
+          </a>
+          <a
+            className="text-custom-white block cursor-pointer"
+            onClick={() => handleClick("why-zimon")}
+          >
+            ¿Por que Zimón?
+          </a>
+          <a
+            className="text-custom-white block cursor-pointer"
+            onClick={() => handleClick("questions")}
+          >
+            Preguntas frecuentes
+          </a>
         </div>
         <div className="mt-4 md:mt-0">
           <h6 className="text-custom-white text-lg">Políticas y Terminos</h6>
-          <a href="https://zimon.mx/home/terms" target="_blank" className="block text-custom-white">Políticas de privacidad</a>
-          <a href="https://zimon.mx/home/privacy" target="_blank" className="block text-custom-white">Terminos y condiciones</a>
+          <a
+            href="https://zimon.mx/home/privacy"
+            target="_blank"
+            className="block text-custom-white"
+            >
+            Políticas de privacidad
+          </a>
+          <a
+            href="https://zimon.mx/home/terms"
+            target="_blank"
+            className="block text-custom-white"
+          >
+            Terminos y condiciones
+          </a>
           <img src={logo} className="my-4" alt="Logo Zimón" />
           <p className="text-custom-white">© 2024 ZIMÓN CRÉDITOS</p>
           <p className="text-custom-white">King David Mobile SAPI de CV</p>
